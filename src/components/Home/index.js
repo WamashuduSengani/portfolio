@@ -16,7 +16,7 @@ class TxtType {
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
+    this.period = parseInt(period, 100000000000) || 2000;
     this.txt = '';
     this.tick();
     this.isDeleting = false;
@@ -66,10 +66,6 @@ window.onload = function() {
       }
   }
 
-  var css = document.createElement("style");
-  css.type = "text/css";
-  css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-  document.body.appendChild(css);
 };  
 
 
@@ -81,30 +77,29 @@ const Home = () => {
         <div className="text-zone">
         <h1 class="hello">Hello, my name is <span class="name">Wamashudu Sengani</span></h1>
 
-        <h3 class="my-profession">
-        <a href="" class="typewrite" data-period="2000" data-type='[ "I am a Software Developer.", "I Love to Develop.", "I Love Design."]'
+        <h3>
+        <a href="" class="typewrite" data-period="2000" data-type='[ "an aspiring software developer", "I am eager to learn"]'
          ><span class="wrap"></span></a>
          </h3>
 
          <h5>
-          <p>I am a goal driven individual passionate about technology.
-             I want to bring innovations to the world and use technology to enhance life.
-             I'm a team player with excellent communication skills.
-             I'm able to work effectively as an individual and within a team. I'm a critical thinker, I possess good problem solving skills 
-             and I always strive for continued excellence.
+          <p>I am 23 years old, currently studying Software Development at WeThinkCode_I'm a very ambitious individual with excellent communication skills, quiet confident, naturally curious. I am a motorsport
+            enthusiast and I have a very strong passion about technology.I'm a critical thinker, I possess good problem solving skills and I always strive for continued excellence.
+            
            </p>
           </h5>
 
-          <h4 class='reason'>Why do I want to be a SovTech Developer?</h4>
+          <h4>Why do I want to be a SovTech Developer?</h4>
           <p>I want to become part of the team that is changing the 
              way business across the world build software.I related a lot with the SovTech #TECH spex
              because I want to innovate and change the world using technology. I love problem solving and learning while
              doing so. I see SovTech as a place where I can grow as a developer since I'm transitioning from being a student to getting into the
-             industry professionally, there's plenty of opportunities for continuous learning for me as I'm eager to learn.
+             industry professionally, there's plenty of opportunities for continuous learning for me. SovTech would help me enhance my technical 
+             as well as soft skills and where I can get a chance to work on different technologies and where I can gain an experience.
+             So, SovTech is simply the best company for starting my career because it strongly focus on learning. 
           </p>     
 
-          <NavLink activeclassname="active" className="flat-button" to="/contact">Contact me
-           </NavLink>
+          <NavLink activeclassname="active" className="flat-button" to="/contact">Contact me</NavLink>
        
         </div>
       </div>
