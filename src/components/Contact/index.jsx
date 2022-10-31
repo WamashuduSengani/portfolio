@@ -1,12 +1,12 @@
 import './index.scss'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 
 const Contact = () => {
   const form = useRef()
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass] = useState('text-animate')
 
   const sendEmail = (e) => {
     e.preventDefault()

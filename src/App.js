@@ -1,6 +1,5 @@
 import './App.scss'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Layout from './components/Layout'
 import Home from './components/Home'
 import Skills from './components/Skills'
 import Contact from './components/Contact'

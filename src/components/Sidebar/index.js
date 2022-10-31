@@ -1,6 +1,6 @@
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faGears, faHome } from '@fortawesome/free-solid-svg-icons'
+import { faGears, faHome } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { NavLink } from 'react-router-dom'
 
