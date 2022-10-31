@@ -93,7 +93,7 @@ const Home = () => {
           <h4>Why do I want to be a SovTech Developer?</h4>
           <p>
             I want to become part of the team that is changing the way business
-            across the world build software.I related a lot with the SovTech
+            across the world build software. I related a lot with the SovTech
             #TECH spex because I want to innovate and change the world using
             technology. I love problem solving and learning while doing so. I
             see SovTech as a place where I can grow as a developer since I'm
@@ -101,7 +101,7 @@ const Home = () => {
             professionally, there's plenty of opportunities for continuous
             learning for me. SovTech would help me enhance my technical as well
             as soft skills and where I can get a chance to work on different
-            technologies and where I can gain an experience. So, SovTech is
+            technologies. I believe that SovTech is where I can gain an experience. So, SovTech is
             simply the best company for starting my career because it strongly
             focus on learning.
           </p>
@@ -111,8 +111,8 @@ const Home = () => {
               href=""
               className="typewrite"
               data-period="5000"
-              data-type='[ "an aspiring software developer", "I am eager to learn","I am passionate about tech",
-            "I like innovation","I am ambitious","I love writing code"]'
+              data-type='[ "an aspiring software developer.", "I am eager to learn.","I am passionate about tech.",
+            "I like innovation.","I am ambitious.","I love writing code.","Tech is cool"]'
             >
               <span className="wrap"></span>
             </a>
