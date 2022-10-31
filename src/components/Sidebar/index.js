@@ -12,7 +12,7 @@ const Sidebar = () => (
       <div class="nav-toggler"></div>
 
       <div class="nav">
-        <NavLink exact="true" activeclassname="active" to="/">
+        <NavLink exact="true" activeclassname="active" to="/home">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
 

@@ -1,10 +1,10 @@
 .aside{ background: #181818;
     width: 90px;
-    height: 100%;
-    position: absolute;
+    height: 100vh;
+    position: fixed;
     top: 0;
     z-index: 3;
-    min-height: 500px;
+    // min-height: 500px;
     
 }
 .nav{

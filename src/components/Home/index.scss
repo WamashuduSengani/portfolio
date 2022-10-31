@@ -1,22 +1,23 @@
+.container {
+  position: absolute;
+  top: 3rem;
+  left: 15rem;
+  width: 50%;
+  z-index: 10;
+}
 .home-page {
   .text-zone {
     position: absolute;
-    left: 10%;
-    top: 40%;
-    transform: translateY(-50%);
-    width: 40%;
-    max-height: 90%;
+    min-height: 0rem;
   }
   h3{
     font-size: 25px;
     margin-top: 7px;
-  
   }
-
 
   h4{
     font-size: 21px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   p{
     margin-top: -11px;
@@ -25,33 +26,33 @@
   }
 
   a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: "Lucida Console", "Courier New", monospace;
-    
   }
 
   h1 {
-    color: rgb(2, 2, 2);
+    color: rgb(255, 255, 255);
     font-size: 50px;
     line-height: 53px;
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
-
-  
   }
 
   h2 {
-    color: #8d8d8d;
-    margin-top: 20px;
-    font-weight: 400;
-    font-size: 11px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 3.5rem;
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
+    transition: all 0.15s ease-out;
   }
 
+
   .flat-button {
+    width: 15rem;
+    height: 2.5rem;
     color: rgb(255, 255, 255);
     background-color: #000000; /* Green */
     font-size: 13px;
@@ -59,12 +60,20 @@
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
-    padding: 10px 18px;
     border: 1px solid #000000;
-    margin-top: 100px;
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
+    position: relative;
+    top: 1rem;
+
+    span {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
     &:hover {
       background: rgb(243, 243, 243);
@@ -73,7 +82,6 @@
   }
 }
 
-
 @media screen and (max-width: 1200px) {
   .tags,
   .home-page h1:before,
@@ -81,30 +89,33 @@
     display: none;
   }
 
-  .home-page .text-zone {
-    position: initial;
-    width: 100%;
-    transform: none;
-    padding: 10px;
-    box-sizing: border-box;
+  .container {
+    position: absolute;
+    top: 2.5rem;
+    left: 10rem;
+    width: 60%;
   }
 
-  .home-page .flat-button {
-    float: none;
-    display: block;
-    margin: 20px auto 0 auto;
-    width: 124px;
+  .home-page .text-zone {
+    position: relative;
+    width: 100%;
+    transform: none;
+    box-sizing: border-box;
   }
 }
 .stage-cube-cont {
   width: 50%;
   height: 100%;
-  top: 1px;
-  padding-top: 18%;
-  margin-left: 0;
-  position: absolute;
-  right: 0;
-  overflow: hidden;
+  margin: auto;
+  translate: 25vw 25vh;
+  transition: all 0.3s ease-out;
+}
+
+@media (max-width: 760px) {
+
+  .stage-cube-cont {
+    translate: 5vw 5vh;
+  }
 }
 
 .cubespinner {
@@ -120,7 +131,7 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    border: 1px solid rgb(3, 3, 3);
+    border: 1px solid black;
     background: rgba(0, 0, 0, 0.4);
     text-align: center;
     font-size: 100px;
@@ -178,13 +189,20 @@
   }
 }
 .typing{
-  font-size: 25px;
-  margin-bottom: 510px;
-  margin-left: 191px;
+  width: 100%;
+  height: 2.5rem;
 
+  a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
 
-  .a{
-    color: black;
+    span {
+      width: 100%;
+      height: 100%;
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
   }
-  
 }
