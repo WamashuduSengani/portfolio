@@ -2,7 +2,6 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 
-
 class TxtType {
   constructor(el, toRotate, period) {
     this.toRotate = toRotate
@@ -24,7 +23,7 @@ class TxtType {
       this.txt = fullTxt.substring(0, this.txt.length + 1)
     }
 
-    this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>'
+    this.el.innerHTML = '<span className="wrap">' + this.txt + '</span>'
 
     var that = this
     var delta = 200 - Math.random() * 100
@@ -52,7 +51,7 @@ const Skills = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
-    return setTimeout(() => {
+    setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])

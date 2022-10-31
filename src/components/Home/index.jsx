@@ -31,7 +31,7 @@ class TxtType {
       this.txt = fullTxt.substring(0, this.txt.length + 1)
     }
 
-    this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>'
+    this.el.innerHTML = '<span className="wrap">' + this.txt + '</span>'
 
     var that = this
     var delta = 200 - Math.random() * 100
@@ -72,8 +72,8 @@ const Home = () => {
       <div className="container home-page">
         <div className="typing"></div>
         <div className="text-zone">
-          <h2 class="hello">
-            Hello, my name is <span class="name">Wamashudu Sengani</span>
+          <h2 className="hello">
+            Hello, my name is <span className="name">Wamashudu Sengani</span>
           </h2>
           <br />
           <h5>
@@ -104,14 +104,14 @@ const Home = () => {
           </p>
 
           <div className="typing">
-              <a
-                href=""
-                class="typewrite"
-                data-period="5000"
-                data-type='[ "an aspiring software developer", "I am eager to learn"]'
-              >
-                <span class="wrap"></span>
-              </a>
+            <a
+              href=""
+              className="typewrite"
+              data-period="5000"
+              data-type='[ "an aspiring software developer", "I am eager to learn"]'
+            >
+              <span className="wrap"></span>
+            </a>
           </div>
 
           <NavLink
@@ -123,7 +123,6 @@ const Home = () => {
           </NavLink>
         </div>
       </div>
-      
 
       <div className="stage-cube-cont home_page_cube">
         <div className="cubespinner">

@@ -1,28 +1,23 @@
 import './App.scss'
-import { Routes, Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './components/Home'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
+import Sidebar from './components/Sidebar'
 
-function App() {
+const App = () => {
   return (
     <>
-    
-      
-      <Layout></Layout>
+      <BrowserRouter>
+        <Sidebar></Sidebar>
         <Routes>
-          
-          <Route path="/" element={<Home />}>
-            <Route index path="/home" element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
-
-            
-            <Route path="/skills" element={<Skills />} />
-          </Route>
-
+          <Route path="/" element={<Home />} />
+          <Route index path="/home" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
-    
+      </BrowserRouter>
     </>
   )
 }
