@@ -29,8 +29,8 @@ My Portfolio is built with
     run `npm install` in the terminal of your preferred IDE while 
     in the project's directory
 
-* In the project's directory run `npm start` then the project will run in development mode on your browers or alternatively you can open the 
-`http://localhost:` that will bwe displayed in your IDE's terminal
+* In the project's directory run `npm start` then the project will run in development mode on your browser or alternatively you can open the 
+`http://localhost:` that will be displayed in your IDE's terminal
 
 # LINKS TO THE DEPLOYED VERSION
 
