@@ -28,7 +28,7 @@ in the project's directory
 
 # LINKS TO THE DEPLOYED VERSION
 
-portfolio-wamashudusengani.vercel.app
-portfolio-git-master-wamashudusengani.vercel.app
-portfolio-sooty-six-57.vercel.app
+[Deployed version link #1](portfolio-wamashudusengani.vercel.app)
+[Deployed version link #2](portfolio-git-master-wamashudusengani.vercel.app)
+[Deployed version link #3](portfolio-sooty-six-57.vercel.app)
 
