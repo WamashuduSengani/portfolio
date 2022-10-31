@@ -79,13 +79,14 @@ const Home = () => {
           <h5>
             <p>
               I am 23 years old, currently studying Software Development at
-              WeThinkCode_. I'm a very ambitious individual with excellent
-              communication skills, quiet confident, naturally curious. I am a
-              motorsport enthusiast and I have a very strong passion for
-              technology. I'm a critical thinker, I possess good problem solving
-              skills and I always strive for continued excellence. I'm excited 
-              to learn and grow in many fields of software development and expand 
-              my knowledge in the industry and meet amazing people in my journey.
+              WeThinkCode_ graduating end of year. I'm a very ambitious
+              individual with excellent communication skills, quiet confident,
+              naturally curious. I am a motorsport enthusiast and I have a very
+              strong passion for technology. I'm a critical thinker, I possess
+              good problem solving skills and I always strive for continued
+              excellence. I'm excited to learn and grow in many fields of
+              software development and expand my knowledge in the industry and
+              meet amazing people in my journey.
             </p>
           </h5>
 
