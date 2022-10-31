@@ -78,16 +78,12 @@ const Home = () => {
         <div className="text-zone">
         <h1 class="hello">Hello, my name is <span class="name">Wamashudu Sengani</span></h1>
 
-        <h3>
-        <a href="" class="typewrite" data-period="2000" data-type='[ "an aspiring software developer", "I am eager to learn"]'
-         ><span class="wrap"></span></a>
-         </h3>
+     
 
          <h5>
           <p>I am 23 years old, currently studying Software Development at WeThinkCode_I'm a very ambitious individual with excellent communication skills, quiet confident, naturally curious. I am a motorsport
             enthusiast and I have a very strong passion about technology.I'm a critical thinker, I possess good problem solving skills and I always strive for continued excellence.
-            
-           </p>
+          </p>
           </h5>
 
           <h4>Why do I want to be a SovTech Developer?</h4>
@@ -103,6 +99,14 @@ const Home = () => {
           <NavLink activeclassname="active" className="flat-button" to="/contact">Contact me</NavLink>
        
         </div>
+      </div>
+
+      <div className="typing">
+
+      <h3>
+        <a href="" class="typewrite" data-period="2000" data-type='[ "an aspiring software developer", "I am eager to learn"]'
+         ><span class="wrap"></span></a>
+         </h3>
       </div>
 
       <div className="stage-cube-cont">

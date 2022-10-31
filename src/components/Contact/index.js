@@ -26,10 +26,8 @@ const Contact = () => {
     
     return (
         
-        <div>
-
-
-        <div className="text-zone">
+        <div className='textzone'>
+            <div className="textzone">
         <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -73,6 +71,10 @@ const Contact = () => {
           </ul>
         </form>
         </div>
+      </div>
+      <div>
+
+        
       </div>
       </div>
     )

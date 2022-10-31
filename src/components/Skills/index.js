@@ -18,12 +18,12 @@ const Skills = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['M', 'y', ' ', 'S', 'k', 'i', 'l', 'l', 's']}
+              strArray={['M', 'Y', ' ', 'T', 'E', 'C', 'H', ' ', 'S','T','A','C','K']}
               idx={15}
             />
           </h1>
           <p>
-            A strong engineering professional with demonstrated skills working
+            I am strong engineering professional with demonstrated skills working
             with Java,
             <br />
             Python (Programming language), Javascript, SQL, HTML, CSS and <br />
