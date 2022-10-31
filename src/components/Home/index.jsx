@@ -79,11 +79,13 @@ const Home = () => {
           <h5>
             <p>
               I am 23 years old, currently studying Software Development at
-              WeThinkCode_I'm a very ambitious individual with excellent
+              WeThinkCode_. I'm a very ambitious individual with excellent
               communication skills, quiet confident, naturally curious. I am a
-              motorsport enthusiast and I have a very strong passion about
-              technology.I'm a critical thinker, I possess good problem solving
-              skills and I always strive for continued excellence.
+              motorsport enthusiast and I have a very strong passion for
+              technology. I'm a critical thinker, I possess good problem solving
+              skills and I always strive for continued excellence. I'm excited 
+              to learn and grow in many fields of software development and expand 
+              my knowledge in the industry and meet amazing people in my journey.
             </p>
           </h5>
 
@@ -108,7 +110,8 @@ const Home = () => {
               href=""
               className="typewrite"
               data-period="5000"
-              data-type='[ "an aspiring software developer", "I am eager to learn"]'
+              data-type='[ "an aspiring software developer", "I am eager to learn","I am passionate about tech",
+            "I like innovation","I am ambitious","I love writing code"]'
             >
               <span className="wrap"></span>
             </a>
