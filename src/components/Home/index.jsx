@@ -101,9 +101,9 @@ const Home = () => {
             professionally, there's plenty of opportunities for continuous
             learning for me. SovTech would help me enhance my technical as well
             as soft skills and where I can get a chance to work on different
-            technologies. I believe that SovTech is where I can gain an experience. So, SovTech is
-            simply the best company for starting my career because it strongly
-            focus on learning.
+            technologies. I believe that SovTech is where I can gain an
+            experience. So, SovTech is simply the best company for starting my
+            career because it strongly focus on learning.
           </p>
 
           <div className="typing">
