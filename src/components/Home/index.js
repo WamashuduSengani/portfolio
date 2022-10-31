@@ -74,6 +74,7 @@ const Home = () => {
   return (
     <>
       <div className="container home-page">
+        <div className="typing"></div>
         <div className="text-zone">
         <h1 class="hello">Hello, my name is <span class="name">Wamashudu Sengani</span></h1>
 

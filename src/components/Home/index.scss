@@ -14,7 +14,7 @@
   }
   h4{
     font-size: 18px;
-    color: red;
+    color: rgb(0, 0, 0);
   }
   p{
     margin-top: -11px;
@@ -22,14 +22,14 @@
   }
 
   a{
-    color: yellow;
+    color: rgb(0, 0, 0);
     font-family: "Lucida Console", "Courier New", monospace;
     
   }
 
   h1 {
-    color: #fff;
-    font-size: 57px;
+    color: rgb(2, 2, 2);
+    font-size: 50px;
     line-height: 53px;
     margin: 0;
     font-family: 'Coolvetica';
@@ -49,14 +49,15 @@
   }
 
   .flat-button {
-    color: red;
+    color: rgb(255, 255, 255);
+    background-color: #000000; /* Green */
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid #ffd700;
+    border: 1px solid #000000;
     margin-top: 25px;
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
