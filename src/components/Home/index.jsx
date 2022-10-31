@@ -125,7 +125,7 @@ const Home = () => {
       </div>
       
 
-      <div className="stage-cube-cont">
+      <div className="stage-cube-cont home_page_cube">
         <div className="cubespinner">
           <div className="face1">
             <FontAwesomeIcon icon={faJava} color="#DD0031" />

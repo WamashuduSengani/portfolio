@@ -45,8 +45,7 @@
     font-size: 3.5rem;
     font-family: sans-serif;
     letter-spacing: 3px;
-    animation: fadeIn 1s 1.8s backwards;
-    transition: all 0.15s ease-out;
+    animation: fadeIn 1s 0.250s backwards;
   }
 
 
@@ -107,13 +106,16 @@
   width: 50%;
   height: 100%;
   margin: auto;
-  translate: 25vw 25vh;
   transition: all 0.3s ease-out;
+}
+
+.home_page_cube {
+  translate: 25vw 25vh;
 }
 
 @media (max-width: 760px) {
 
-  .stage-cube-cont {
+  .home_page_cube{
     translate: 5vw 5vh;
   }
 }

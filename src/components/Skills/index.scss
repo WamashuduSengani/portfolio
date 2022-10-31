@@ -44,8 +44,11 @@
   width: 50%;
   height: 100%;
   margin: auto;
-  translate: 0 5vh;
   transition: all 0.3s ease-out;
+}
+
+.skills_cube_view {
+  translate: 0 5vh;
 }
 
 .cubespinner {

@@ -94,7 +94,7 @@ const Skills = () => {
             pipelines
           </p>
         </div>
-        <div className="stage-cube-cont">
+        <div className="stage-cube-cont skills_cube_view">
           <div className="cubespinner">
             <div className="face1">
               <p>Javascript</p>
